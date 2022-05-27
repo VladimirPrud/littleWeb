@@ -1,0 +1,76 @@
+body {
+    margin: 0 auto;
+    width: 1920px;
+    overflow: hidden;
+}
+
+
+header {
+    background-color: #808080;
+    width: 1920px;
+    height: 80px;
+}
+
+.header_title {
+    margin: 0;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 70px;
+    color: #fff;
+}
+
+
+.wrapper {
+    display: flex;
+    margin: 0 auto;
+    background-image: url('../image/fon1.png') ;
+    background-size: 1920px 1080px;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
+.wnd_map {
+    height: 820px;
+    width: 960px;
+    position: relative;
+}
+
+.menu_btn {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    margin: 50px 170px 0 170px;
+}
+
+button {
+    background-color: #808080;
+    cursor: pointer;
+    font-size: 36px;
+    border-radius: 10px;
+    color:#fff;
+    text-transform: uppercase;
+    padding: 20px 80px;
+    border: 0;
+}
+
+.manu_btn__calc {
+    margin-bottom: 100px;
+}
+
+.menu_text {
+    background-color: rgba(255,255,255, 0.8);
+    width: 800px;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px 40px;
+    margin: 100px 80px 0 80px;
+}
+
+footer {
+    background-color: #808080;
+    width: 1920px;
+    height: 80px;
+    bottom: 0;
+}
